@@ -1,0 +1,10 @@
+{
+  "packageRules": [
+    {
+      "description": "This should pin the terraform provider version",
+      "matchManagers": ["terraform"],
+      "matchDepTypes": ["required_provider"],
+      "rangeStrategy": "pin"
+    }
+  ]
+}
